@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 
 export default function TextForm(props) {
-    const [text, setText] = useState('Enter text here')
+    const [text, setText] = useState('')
     // text = "new text"// wrong way to change state
     // setText("new text")//correct way to change state
     const handleUpClick = () => {
